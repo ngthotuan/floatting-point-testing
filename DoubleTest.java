@@ -5,8 +5,8 @@ import java.io.*;
  */
 public class DoubleTest {
     public static void main(String[] args) throws Exception {
-        long a = 0b0100000_00000000_00000000_00000000_00000000_00000000_00000000L; // 2^52
-        long b = 0b1000000_00000000_00000000_00000000_00000000_00000000_00000000L; // 2^53
+        long a = 0b0100000_00000000_00000000_00000000_00000000_00000000_00000000L; // 2^53
+        long b = 0b1000000_00000000_00000000_00000000_00000000_00000000_00000000L; // 2^54
         System.out.printf("a: %d, b: %d\n", a, b);
 
         WorkerThreadTick workerThreadTick = new WorkerThreadTick();
