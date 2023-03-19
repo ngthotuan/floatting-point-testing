@@ -10,7 +10,7 @@ public class FloatTest {
         System.out.printf("a: %d, b: %d\n", a, b);
 
         WorkerThreadTick workerThreadTick = new WorkerThreadTick();
-        BufferedWriter bufferedWriter = getBufferWriter("output.txt");
+        BufferedWriter bufferedWriter = getBufferWriter("output-float.txt");
 
         workerThreadTick.start();
         long startTime = System.currentTimeMillis();
